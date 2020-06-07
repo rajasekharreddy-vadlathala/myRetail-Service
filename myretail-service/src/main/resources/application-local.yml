@@ -1,0 +1,18 @@
+server:
+ port:8081
+ 
+spring:
+ profiles:
+   active: local
+ application:
+   name: myretail-service 
+ data:
+   mongodb:
+    database: terminology
+    host: localhost
+    port: 27017
+    username: raja
+    password: raja#1234
+
+product:
+  rest-api-url: https://api.target.com/
