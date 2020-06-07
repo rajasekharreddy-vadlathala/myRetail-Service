@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import lombok.Data;
 
 
-@Document(collection = "data")
+@Document(collection = "product")
 @Data
 public class Product {
 
